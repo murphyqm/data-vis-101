@@ -16,3 +16,4 @@ dependencies:
   - geoplot
   - pysal
   - hvplot
+  - selenium
