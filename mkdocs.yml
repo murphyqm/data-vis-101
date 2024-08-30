@@ -1,0 +1,44 @@
+site_name: My Docs
+
+theme:
+  name: "material"
+  features:
+    - content.code.copy
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+
+# plugins:
+#   - search
+#   - toggle-sidebar
+#   - awesome-pages
+#   - mermaid2:
+#       arguments:
+#         theme: 'base'
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+        generic: true
+        block_tag: 'pre'
+  - pymdownx.details
+  - pymdownx.tilde
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.blocks.tab
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
