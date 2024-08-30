@@ -1,4 +1,4 @@
-name: vis-env-01
+name: vis-env-02
 channels:
   - conda-forge
   - defaults
@@ -16,4 +16,4 @@ dependencies:
   - geoplot
   - pysal
   - hvplot
-  - selenium
+  # - selenium
